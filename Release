@@ -1,0 +1,20 @@
+Origin: Mir7's Cydia Repo
+Label: Mir7's Cydia Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Static architecture manifest mapping suite indices.
+MD5Sum:
+ 86096b16cd9823ccdb764f1485bf2c1d 495 Packages
+ 793e2993a6d0aa67c96a82392ca419c0 359 Packages.gz
+ 793e2993a6d0aa67c96a82392ca419c0 359 Packages.bz2
+SHA1:
+ d27e6271a25bf1c915064273068ebf33a9af1a0f 495 Packages
+ 16dcdc25175a1a14d9a58160050227721e6b50a0 359 Packages.gz
+ 16dcdc25175a1a14d9a58160050227721e6b50a0 359 Packages.bz2
+SHA256:
+ 566a66d3d95967ed648efc1cdc2b8bb5844082628b65a275737a27fc29027550 495 Packages
+ d993873eb5f820774e30d071a9689401bf1a514db6da90a3539e25b128c0ac12 359 Packages.gz
+ d993873eb5f820774e30d071a9689401bf1a514db6da90a3539e25b128c0ac12 359 Packages.bz2
