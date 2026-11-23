@@ -7,8 +7,14 @@ Architectures: iphoneos-arm
 Components: main
 Description: Static architecture manifest mapping suite indices.
 MD5Sum:
- 86096b16cd9823ccdb764f1485bf2c1d 495 Packages
+ 09a7fd45a9cac4fde0d4218a48ae5001 51786 Packages
+ 152854674e08c9c6bb5e482aa2f0d9e2 16919 Packages.gz
+ 152854674e08c9c6bb5e482aa2f0d9e2 16919 Packages.bz2
 SHA1:
- d27e6271a25bf1c915064273068ebf33a9af1a0f 495 Packages
+ 2fad9c702f8a83e5d8c42e6db3dc6bf59c937410 51786 Packages
+ d6f6c741581aacabee9e103c674048fe6ec1810f 16919 Packages.gz
+ d6f6c741581aacabee9e103c674048fe6ec1810f 16919 Packages.bz2
 SHA256:
- 566a66d3d95967ed648efc1cdc2b8bb5844082628b65a275737a27fc29027550 495 Packages
+ 3372ed47bf90d940e3f6675ab9b76580bf1f85bd93545823508ae4e3030ef13e 51786 Packages
+ f9307f2ac70bbaba7c9b0b520661935424b8fbcc910d0dc1dfba9709c2bd64aa 16919 Packages.gz
+ f9307f2ac70bbaba7c9b0b520661935424b8fbcc910d0dc1dfba9709c2bd64aa 16919 Packages.bz2

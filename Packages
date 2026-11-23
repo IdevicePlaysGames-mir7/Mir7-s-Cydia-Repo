@@ -2,11 +2,1337 @@ Package: ai.akemi.appsyncunified
 Name: AppSync Unified
 Version: 116.0
 Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware (>= 5.0)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
 Size: 51658
 MD5sum: 536009a11dad57e48a5563224eaffaff
 SHA1: e0fa412cb3c26718887edd834804c88909297079
 SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
 Section: Tweaks
-Description: AppSync Unified for (iOS 5 to iOS 18).
+Description: Install unsigned, fakesigned, or ad-hoc signed IPA files on jailbroken iOS devices.
+
+Package: ai.akemi.appsyncunified
+Name: AppSync Unified
+Version: 116.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 26.0)
+Filename: debs/ai.akemi.appsyncunified_116.2_iphoneos-arm.deb
+Size: 78580
+MD5sum: 4ecec5319346560a6355ccafd7f9826d
+SHA1: ee8fdded08ef778c625180d81fbe74a97988dba0
+SHA256: cd700c91f746cf3a58ac534d43d4ff8278ffb9b92683456649bbba431adfe76e
+Section: Tweaks
+Description: Install unsigned, fakesigned, or ad-hoc signed IPA files on jailbroken iOS devices.
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Version: 7.9.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Filename: debs/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 4786998
+MD5sum: ccd722461350e28e2e0b5a029416ca6c
+SHA1: 36acad04b82db75d345c91ee363a27eb4d602a27
+SHA256: f1e6087494618183f7539bba3a38ee88608383868cfcd524f99b46d7e7a27a47
+Section: Utilities
+Description: Clean temporary files, caches, logs, and manage tweaks on jailbroken iOS.
+
+Package: com.unthreadedjb.hashtag-unthreadedjb-hashtag-screan
+Name: #unthreadedjb #screan
+Version: 0.0.0.0.0.0.0.3-ALAPHA
+Architecture: iphoneos-arm
+Depends: org.chronic-dev.animate, com.ih8sn0w.animatefix
+Filename: debs/com.unthreadedjb.hashtag-unthreadedjb-hashtag-screan.deb
+Size: 1722208
+MD5sum: a265e1e85cf1ce8df62ee7945016148f
+SHA1: 89281af8161eb67bf08db1a36d5c1bb0602d5b40
+SHA256: 71d91e9c064c8ee5c48a1c324e6dcec859011c4eaea5dac957a1be9d9f819ac9
+Section: Addons (BootLogo)
+Description: Legacy untethered jailbreak and system utility package for supported iOS versions. Screen and display customization package for legacy iphoneos-arm iOS devices.
+
+Package: com.ivanobilenchi.icleanerdarktheme
+Name: iCleaner Dark Theme
+Version: 1.0.2
+Architecture: iphoneos-arm
+Depends: 
+Filename: debs/iCleanerDarkTheme_1.0.2.deb
+Size: 1274
+MD5sum: 5e798339af8424c399d5373630007dd7
+SHA1: a058489360ec590c87722bff7ff3e7b8bb5a197d
+SHA256: 5188576106e2f9657da7d7520e416e98b799586e6f4b9ff43bdcdc5205fd191c
+Section: Themes
+Description: Dark theme for the iCleaner and iCleaner Pro apps.
+
+Package: net.angelxwind.karenlocalizer
+Name: KarenLocalizer
+Version: 1.0.5
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0)
+Filename: debs/karenlocalizer_1.0.5.deb
+Size: 4760
+MD5sum: 1fd0c56e4eaa45ebbdbd0c93c6f15308
+SHA1: 6977315ee4c3f9e256bae7b8ae7196d539513cc8
+SHA256: 374f6baeba9f683d5ec8d334b6b295b960ba90226247e9ff67247c7f035e1ac7
+Section: Development
+Description: Shared localization library for Karen/angelXwind iOS tweaks.
+
+Package: net.angelxwind.karenprefs
+Name: KarenPrefs
+Version: 1.5
+Architecture: iphoneos-arm
+Depends: preferenceloader
+Filename: debs/karenprefs_1.5.deb
+Size: 21448
+MD5sum: 018caee611c4e2fa9b1255d1647780e2
+SHA1: 4cc3e595f142a20b889c0f6fc5bd0dc8bf4d83ed
+SHA256: 75a704c961cfece945d9bea2674892482ca235e82c6546de723be79192f00bc1
+Section: Development
+Description: Preference bundle library and UI helper for Karen/angelXwind iOS tweaks.
+
+Package: net.angelxwind.android-4x-pattern-lock
+Name: Android 4.x Pattern Lock for AndroidLockXT
+Version: 1.3.2
+Architecture: iphoneos-arm
+Depends: 
+Filename: debs/net.angelxwind.android-4x-pattern-lock.deb
+Size: 539916
+MD5sum: 75fba8701cf372ff11118f87a4d86e16
+SHA1: 42942fe4e7bd029c1e58f7e4c48affbc1c0bfa47
+SHA256: 1c0a910d4a7a95132e6b044aef579ca763352873541c27b5488fb7216107f26a
+Section: Themes
+Description: Android 4.x pattern grid lockscreen theme for AndroidLock XT.
+
+Package: net.angelxwind.clitools
+Name: CLI Tools
+Version: 1.3.1
+Architecture: iphoneos-arm
+Depends: syslogcmdline, adv-cmds, com.innoying.sbutils, cycript | firmware (>= 11.0), irssi | firmware (>= 11.0), com.autopear.installipa, org.thebigboss.cacerts, com.eswick.ondeviceconsole, org.thebigboss.cutils, apt7, basic-cmds, bootstrap-cmds, bzip2, class-dump | firmware (>= 11.0), coreutils, developer-cmds, diskdev-cmds, file-cmds, gawk, gdb | firmware (>= 11.0), git, gzip, iokittools, less, make, com.conradkramer.open, nano, network-cmds, ldid, rsync, shell-cmds, system-cmds, com.ericasadun.utilities | firmware (>= 11.0), socat, screen, top, uikittools, findutils, inetutils, diffutils, lsof, subversion | firmware (>= 11.0), vim, xar | firmware (>= 11.0), tar, patch, unrar, unzip, wget, whois | firmware (>= 11.0), xml2 | firmware (>= 11.0), zip, p7zip
+Filename: debs/net.angelxwind.clitools.deb
+Size: 1004
+MD5sum: 10f6a3244522293cdb34e74817f080f2
+SHA1: e1a1db6714c16070465b6dab6a14955538c2be85
+SHA256: fbc13788f8cfe6fd10bd8c68b247c7697006d30068893cf937a3cb4b1c8d25b4
+Section: System
+Description: Command-line tools and shell utilities for jailbroken iOS.
+
+Package: net.angelxwind.completeppsyncremover
+Name: Complete PPSync Remover
+Version: 1.2.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/net.angelxwind.completeppsyncremover.deb
+Size: 13332
+MD5sum: ceea1946bd0d0b680fb07153d44823fb
+SHA1: 0cdd4e4b649c3a3359ab206494d1474b972e407b
+SHA256: c28ad9cbba115e70356909109ca78c423cdfef8da4a7982267458e5d4fa0ef98
+Section: Utilities
+Description: Remove PPSync remnants and restore system daemon files on jailbroken iOS.
+
+Package: net.angelxwind.internalfbicons
+Name: Internal FB Icons
+Version: 1.4.2
+Architecture: iphoneos-arm
+Depends: winterboard
+Filename: debs/net.angelxwind.internalfbicons.deb
+Size: 401572
+MD5sum: 162d7d9c184933e0c6c15f445b84352a
+SHA1: ccc524f2290956b98edf1e0ef8516fa5eed7d1de
+SHA256: c1c36005b9efb13e76acbfe18fcae26e546a84435a73327abc471a710088bc94
+Section: Themes
+Description: Facebook app icons used internally by employees on legacy iOS.
+
+Package: net.angelxwind.iswipe
+Name: iSwipe
+Version: 2.0.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/net.angelxwind.iswipe.deb
+Size: 1965152
+MD5sum: 28a844a7d7abc0b11eab73dbb95e06c0
+SHA1: 232c8d35450092fae75c27946f44b74c0aa0739f
+SHA256: 7ddf81a5989d260ade499f60e87b0aff0723b9a09baaa3a97fb18c6fcef71da7
+Section: Tweaks
+Description: Android-style swipe typing input for the legacy iOS keyboard.
+
+Package: net.angelxwind.mobileterminal-applesdk
+Name: MobileTerminal
+Version: 521-karen-2
+Architecture: iphoneos-arm
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: debs/net.angelxwind.mobileterminal-applesdk.deb
+Size: 248692
+MD5sum: fb2e35fd8ee6fe53963dd65fd659174c
+SHA1: c9da4581484e70761e440ac7a8e5b7e64c44497c
+SHA256: 1ad7e0d6c8cc90c546b8a63df85c5694a1bd2f4d6b150612183944ec7fe34a64
+Section: Terminal_Support
+Description: On-device terminal emulator and shell interface for jailbroken iOS.
+
+Package: net.angelxwind.stash841
+Name: C
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Filename: debs/net.angelxwind.stash841.deb
+Size: 1004
+MD5sum: 056dbabe7447460a4504159bbb41cc53
+SHA1: 834986ae8bf57f6ca30719c334e67664118e0288
+SHA256: 1ff89f9842ffbad6285c7f4e3b13e56e9ed90f037eee8b60664bd327a6305b22
+Section: System
+Description: Untethered jailbreak package for 32-bit iOS 8.4.1 devices.
+
+Package: net.angelxwind.stash935fix
+Name: Stashing Fix for Phœnix (9.3.5)
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (= 9.3.5)
+Filename: debs/net.angelxwind.stash935fix.deb
+Size: 970
+MD5sum: 38e4af9500bb5d6c1aaa7a975e8946e4
+SHA1: d56ecd3fa57d1c6e76494d8626edadf5c54af3d2
+SHA256: dc42cdb74d0cd2d0dc3928becad4482717b5a8aaa0f18f3051ae1b7065969481
+Section: System
+Description: Enables safe tweak and theme stashing on 32-bit iOS 9.3.5 Phœnix jailbreaks.
+
+Package: net.angelxwind.testflightfixer
+Name: TestFlight/Provisioning Profile Fixer
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: 
+Filename: debs/net.angelxwind.testflightfixer.deb
+Size: 828
+MD5sum: c21535c782d7c2dc2dfcbec5d934be97
+SHA1: e7845e395821ed2951dd2dd96f3007eb8a7fa72b
+SHA256: f85bb9bfdfec073881bcf2f98309f88fccc22b3701eccf0a5e287bb47078d8da
+Section: Utilities
+Description: Repairs provisioning profile permissions affecting TestFlight and sideloaded apps on jailbroken iOS.
+
+Package: ai.akemi.appinst
+Name: appinst (App Installer)
+Version: 2.1
+Architecture: iphoneos-arm
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Filename: debs/nodelete-ai.akemi.appinst.deb
+Size: 60158
+MD5sum: 68d376ab836e5e92106be1a368a00c3b
+SHA1: 9acf2fb322cd5e9a9d4603999aaf12f676cbe74d
+SHA256: b2dc9df6b8127dfb2d219b583cde5b04168b2df1b4e292f00042c0f9b8e3cebc
+Section: Utilities
+Description: Command-line IPA package installer utility for jailbroken iOS.
+
+Package: com.linusyang.appinst
+Name: appinst (App Installer)
+Version: 1.1.4
+Architecture: iphoneos-arm
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Filename: debs/nodelete-com.linusyang.appinst.deb
+Size: 75224
+MD5sum: bc07d52e849498a244f392d09b8d1ae8
+SHA1: b8e7578118cee54ddb49b739907ad015310601c8
+SHA256: 2b1cce8defe3eba168c4fbd038c8dac4e8ffe7bb8c4ddeba178f8b0a6c597d25
+Section: Utilities
+Description: Command-line IPA package installer utility for jailbroken iOS.
+
+Package: net.angelxwind.airspeaker
+Name: AirSpeaker
+Version: 1.4.5
+Architecture: iphoneos-arm
+Depends: preferenceloader, net.angelxwind.karenprefs (>= 1.3)
+Filename: debs/nodelete-net.angelxwind.airspeaker.deb
+Size: 3262806
+MD5sum: 5367a244024fe9f764c0a1aa2d616824
+SHA1: 61c689afce00e0318cb9ca7d60d5efadfb02b52b
+SHA256: 6761e3d0becf2d79c7db94a29e60f793fbf17795ef1b749d7b210e6a5d4900a3
+Section: Utilities
+Description: Turn your jailbroken iOS device into an AirPlay audio receiver.
+
+Package: net.angelxwind.allmailactions
+Name: All Mail Actions (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.allmailactions.deb
+Size: 714
+MD5sum: 9cce216687bc3670b09a9a4c25aedb57
+SHA1: bfacf6d00e127fdb6e3a1ddc35b3f2d685a07759
+SHA256: 08a51ab84128f410f28e0f8772c56841868b7b69d58e6fc134147bda3fdc342a
+Section: Tweaks
+Description: Adds bulk select, mark, and delete actions to the stock iOS Mail app.
+
+Package: net.angelxwind.bettergooglemaps
+Name: Better Google Maps (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.bettergooglemaps.deb
+Size: 718
+MD5sum: a9fa332ac2b4b8be2d9b7f71a98d72a3
+SHA1: 4d373835e4abd59dd77ac41cc4583aa15dc922ff
+SHA256: 247bbf2fe6a3cde65d928318e6194d65a3cf15c947f658e10f2539b29154e399
+Section: Tweaks
+Description: Improves the Google Maps app with mikoto's usability enhancements.
+
+Package: net.angelxwind.betteryoutube
+Name: Better YouTube (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.betteryoutube.deb
+Size: 716
+MD5sum: ac22c59af7d4015eaf42672ef31ad2ac
+SHA1: de169998881bfe78f6e2df0589a6dac39a51889f
+SHA256: e03cdbdf5e562879d8f5e07df2cfaa3048dbe5c219c06d4234641db6d8ae13ce
+Section: Tweaks
+Description: Enables background playback, ad removal, and HD streaming in the YouTube app.
+
+Package: net.angelxwind.cesiumhelper
+Name: CesiumHelper
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 7.0), applist, net.angelxwind.karenprefs (>= 1.5)
+Filename: debs/nodelete-net.angelxwind.cesiumhelper.deb
+Size: 1261522
+MD5sum: c7142b6fb9b1bef4542347560e821a4c
+SHA1: 448e93f49e071eb2736765fff07649bfc8aef9dc
+SHA256: d018bf27732bb3f4c5f8ceb48e3cf7090fd8d70f676c0fedc0eab4c8fb1de128
+Section: Tweaks
+Description: Companion tweak improving Cesium music player integration on jailbroken iOS.
+
+Package: net.angelxwind.euvolumelimitdisabler
+Name: EU Volume Limit Disabler (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.euvolumelimitdisabler.deb
+Size: 724
+MD5sum: bb0129d48fd754883ed9dbaf964001df
+SHA1: 370a88e0375ab7e6f84f2b835284bc55cf73c19c
+SHA256: ff015a67da98f4c9feff3536bd67852c32fd1d44dd453acb1ecde3a8fbdc98ab
+Section: Tweaks
+Description: Removes the European Union headphone volume cap on jailbroken iOS.
+
+Package: net.angelxwind.facebookinternalsettings
+Name: Facebook Internal Settings (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.facebookinternalsettings.deb
+Size: 724
+MD5sum: db4ca4ea6e81ca4455757c58efd5f5b3
+SHA1: 574bbfed248cc7db829105e2139c477ea81a872f
+SHA256: 35a43872b92aeba1cffee289452c04bd5823938c72ed5219835c69280a89ad39
+Section: Tweaks
+Description: Unlocks Facebook's hidden internal employee debug settings menu on legacy iOS.
+
+Package: net.angelxwind.ineffectivepower
+Name: IneffectivePower
+Version: 1.2.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/nodelete-net.angelxwind.ineffectivepower.deb
+Size: 3734
+MD5sum: 697651e5031e0df0802ee6bd229ad664
+SHA1: d5ab860acd8754e9adab34d1b32b1a1680a131a4
+SHA256: 0d1121bf3ebc2945adc643f1054cef69a34cd09421647123199e41465c4ccbda
+Section: Tweaks
+Description: Protects iOS devices from the malicious Unicode text crash bug.
+
+Package: net.angelxwind.iswipe
+Name: iSwipe
+Version: 2.0.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/nodelete-net.angelxwind.iswipe.deb
+Size: 34114
+MD5sum: 716c3607e6d48d21ab1b30ac457761b7
+SHA1: c90b2a5a3b39692a79129150e5fa6ffdb9afeda7
+SHA256: ab4c18adc7a122faeeaf5fa0505244c5772cbfa360f8640eaee7778ecb72017a
+Section: Tweaks
+Description: Type words by sliding your finger across the stock iOS keyboard.
+
+Package: net.angelxwind.jellylockunified
+Name: JellyLock Unified
+Version: 1.1.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), applist, mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs
+Filename: debs/nodelete-net.angelxwind.jellylockunified.deb
+Size: 5550260
+MD5sum: c5394f2d8620da8382b18b67ad400d9d
+SHA1: 8a88d01d46d3f8e3bd0b4af65e68ac049e1c807b
+SHA256: 51aebd1f1f6734c4332e306854774cbcf0310e8929610e403ac556519d7d485f
+Section: Tweaks
+Description: Android Jelly Bean-style circular lock screen launcher with quick app shortcuts.
+
+Package: net.angelxwind.mikoto
+Name: mikoto
+Version: 4.0.3
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs (>= 1.4), net.angelxwind.karenlocalizer
+Filename: debs/nodelete-net.angelxwind.mikoto.deb
+Size: 11582804
+MD5sum: e1f49254a62ed949fd6d7d44c0b01043
+SHA1: 5717d7348bd1a23cc7bb94f659704409a21eeb8a
+SHA256: ea31dd47acfa2c397664ffb19e8bcc130d356d37fad49ccd6c45ebb32f06de69
+Section: Tweaks
+Description: Comprehensive iOS system, SpringBoard, and third-party app customization suite.
+
+Package: net.angelxwind.noautospotlightkeyboard
+Name: No Auto Spotlight Keyboard (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.noautospotlightkeyboard.deb
+Size: 724
+MD5sum: eedd82c1af41c9e076fbb1eced44521c
+SHA1: 1c1926a4d76a33d02653ad7f24af7f1d84db7c26
+SHA256: 4b0f79e09f95246d18112c93f4669c53f4902c662b8a0cb980c667677ba5d2c0
+Section: Tweaks
+Description: Prevents the keyboard from automatically popping up when opening Spotlight Search.
+
+Package: net.angelxwind.nocalculatorinputlimit
+Name: No Calculator Input Limit (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nocalculatorinputlimit.deb
+Size: 722
+MD5sum: d04da0d9ea42dcf28de2af7225e88433
+SHA1: dd66388e13e59036814856070f8ff17285babdcb
+SHA256: c2b74fece4842e51323814b231fdaa999062c2a9d076e69bd8a0dba29a3b7c8d
+Section: Tweaks
+Description: Removes the 9-digit input cap in the stock iOS Calculator app.
+
+Package: net.angelxwind.nolschargingbattery
+Name: No LS Charging Battery (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nolschargingbattery.deb
+Size: 720
+MD5sum: a7a010a7e5b541fe0bef159261bd4583
+SHA1: 2fe544abc987fcce96fcefd823f121df2a879bbe
+SHA256: e3590e0951994b5d2eaee21750d5ceed20bb10b2249e519c2016675e9cccfb5f
+Section: Tweaks
+Description: Hides the large green battery charging graphic on the lock screen.
+
+Package: net.angelxwind.noplsrecovery
+Name: NO PLS RECOVERY
+Version: 2.1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/nodelete-net.angelxwind.noplsrecovery.deb
+Size: 5598
+MD5sum: e6f0fff137a97020bdcdbb9933927ad2
+SHA1: c7ff5dc7d1c4926d2069b6bcb3894f2f1366dada
+SHA256: 9ab21b474f5f5d996d47409222757a0b180b9ebf9870d3ff7ad3624e3bf13c32
+Section: Tweaks
+Description: Prevents iTunes and third-party tools from putting your device into Recovery Mode.
+
+Package: net.angelxwind.nospotlightdim
+Name: No Spotlight Dim (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nospotlightdim.deb
+Size: 714
+MD5sum: 9e8acc9f49a8b01e3f83e38a548e87ab
+SHA1: f27705b7fa9617feb6314c8ef88185409e1a5a75
+SHA256: a746bc663a8881670a858bedebcfdef6dbc5055782f885b8ee7278554269a8ab
+Section: Tweaks
+Description: Removes the dark background dimming overlay when opening Spotlight Search.
+
+Package: net.angelxwind.nowallpapergradient
+Name: No Wallpaper Gradient (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nowallpapergradient.deb
+Size: 718
+MD5sum: 0acdee84b136cd13364e329f7e20b073
+SHA1: 86e66c9dd2c726fbde0d596313eabe0951abb290
+SHA256: 08dfe0911aa6c89b5d03d8ee4be0be324881b75a1cc24a838c449cb04688fd0c
+Section: Tweaks
+Description: Removes the dark gradient shadow applied over home and lock screen wallpapers.
+
+Package: net.angelxwind.pineapplespinnerls
+Name: PineappleSpinnerLS
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 7.0), com.dba-tech.lockpages
+Filename: debs/nodelete-net.angelxwind.pineapplespinnerls.deb
+Size: 51076
+MD5sum: cd70c5f6de511f386e1d2d378e7d9359
+SHA1: b318fca8fffbc972ac78e6aa6ec7ba2b0489053e
+SHA256: 212a50c8c6f39bbc1654bafb73f5ff2e7f54e359e0615caed8564dacf1bac2ad
+Section: Tweaks
+Description: Replaces the stock iOS loading spinner with the classic jailbreak pineapple animation.
+
+Package: net.angelxwind.preferenceorganizer2
+Name: PreferenceOrganizer 2
+Version: 4.0.8
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 6.0), net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer
+Filename: debs/nodelete-net.angelxwind.preferenceorganizer2.deb
+Size: 1389558
+MD5sum: b4677faf3fe036219dd99404c15c0c33
+SHA1: bd626df89ba23bc466bf02dabd8a75689561a528
+SHA256: 155093a517db145d42ba0e28733d1e0b5bcfd4e291292158cdbd6146b0f77596
+Section: Tweaks
+Description: Organizes the iOS Settings app into collapsible categories for easier navigation.
+
+Package: net.angelxwind.safestrat
+Name: safestrat
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Depends: 
+Filename: debs/nodelete-net.angelxwind.safestrat.deb
+Size: 3916
+MD5sum: 88b417f53cc7741ae03d6bb74fe833f0
+SHA1: 84df8df844daf12c52fd83aea9d8e2b005a064ba
+SHA256: c7dd5b190ddecb5570947f1fb79bee2ae1d155b0ce2ca67cda23498915d84e81
+Section: Utilities
+Description: Protects untethered iOS 7 and iOS 8 jailbreaks from filesystem boot-loop issues.
+
+Package: net.angelxwind.sandboxpathfixer
+Name: Sandbox Path Fixer
+Version: 1.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.2), net.angelxwind.karenprefs, applist
+Filename: debs/nodelete-net.angelxwind.sandboxpathfixer.deb
+Size: 23204
+MD5sum: 191c0f7fc3817119598160b1c3738331
+SHA1: fb7a7356ae7679f2c4b4e19e427aca6d7360e05b
+SHA256: be141a49b9e8a2aa2dc99766a2f34a8243588a90b1cb277c3bebebf49738761d
+Section: Tweaks
+Description: Fixes legacy app sandbox paths so older iOS apps and games can save and run.
+
+Package: net.angelxwind.showlsstatusclock
+Name: Show LS Status Clock (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.showlsstatusclock.deb
+Size: 720
+MD5sum: d77cc239c357e30a165e60a2e4435583
+SHA1: 7b986b37b8422323bcdb1bd489cd8f9559ae4f33
+SHA256: 789fa5ab208c8e1b4f42d02899e8eddeaa75b6e3c4c8173d74180c0be70db918
+Section: Tweaks
+Description: Displays the time in the status bar on the lock screen.
+
+Package: net.angelxwind.shownotificationdates
+Name: Show Notification Dates (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.shownotificationdates.deb
+Size: 720
+MD5sum: 38e5063dd4940c6cb43d485ef4bfd0e8
+SHA1: e4202e183fa5ab99ed3cbc077fdc28356bb68f1c
+SHA256: d39fba04c16ebd110a5e67c2b33e661fe9740fbada3bdd64b1e53dc366a40397
+Section: Tweaks
+Description: Shows exact dates and timestamps on Notification Center and lock screen alerts.
+
+Package: net.angelxwind.syscallfail
+Name: syscallfail
+Version: 1.1.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.0)
+Filename: debs/nodelete-net.angelxwind.syscallfail.deb
+Size: 2272
+MD5sum: 66e0bc70961648bcb17308716f99d958
+SHA1: ffc43e161eda18815a3c03cd1e0c458b529fd711
+SHA256: b0b5d609b67aed5e254a52cdaa704ba2b6760b42801eeb2c1bc43e9219f620d1
+Section: Utilities
+Description: Prevents or handles failing system calls to improve stability on legacy iOS.
+
+Package: net.angelxwind.trillianenhancer
+Name: Trillian Enhancer (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.trillianenhancer.deb
+Size: 714
+MD5sum: 7ebcc5bfef1159288fde981d4c728051
+SHA1: 870aaf28274bd9f11d3366005163657c8ada2f89
+SHA256: 2aebaacee8aa73328a6a2c6499b65f9ddaf85b562fbb2fdb887cbff60f9d0bbf
+Section: Tweaks
+Description: Adds usability enhancements and fixes to the Trillian messaging app.
+
+Package: net.angelxwind.unlimitedncnotifications
+Name: Unlimited NC Notifications (mikoto)
+Version: 8.88
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.unlimitedncnotifications.deb
+Size: 722
+MD5sum: 505240a889625eafe3add5c76f4b4b13
+SHA1: 501bac11ec1f428c5bb43516ec469999eb90d929
+SHA256: bfa4401e37707d147d6a4f6fd220ace98769a30b0b75299f5fa50c563537722e
+Section: Tweaks
+Description: Allow unlimited notifications in Notification Center.
+
+Package: com.cpdigitaldarkroom.abeo
+Name: Abeo
+Version: 0.0.1-19+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.chpwn.iconsupport
+Filename: debs/com.cpdigitaldarkroom.abeo_0.0.1-19+debug_iphoneos-arm.deb
+Size: 126890
+MD5sum: 333095e4f3d1244d16629a31012a26df
+SHA1: f71014d4c9dae1cb07dfe49a71660f3280ccdbbe
+SHA256: 4bfcaa8973a1751ef5134fb53d6ff9fb4c444a320ce9260975e6b46696c7e0dc
+Section: Tweaks
+Description: Brings iOS 9-style Quick Reply and Quick Compose to iOS 8.
+
+Package: com.cpdigitaldarkroom.amp
+Name: AMP
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.amp_1.0_iphoneos-arm.deb
+Size: 2276
+MD5sum: 74f2912f119097d980f2260b8c1ee2e0
+SHA1: aec16513f5e5d4be5f940c8fbb56ffbbde2d3725
+SHA256: f1d526414235d082c97b7c79df2932af60ba2780cd39234a1091fcb46ec420ab
+Section: Tweaks
+Description: Defaults Control Center to the Now Playing card when media is playing.
+
+Package: com.cpdigitaldarkroom.anis
+Name: Anisette
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, applist, com.a3tweaks.flipswitch, preferenceloader, libactivator, firmware (>= 8.0)
+Filename: debs/com.cpdigitaldarkroom.anis_1.2_iphoneos-arm.deb
+Size: 84034
+MD5sum: 053b1e1a61d6672f96ea850472ef8477
+SHA1: 4a82c2ab5b5c65ebcaa13f0161b610b1cb73e769
+SHA256: 2c8431c6b97f3780aab2babcc3b447f6bd90f0fecf50fa66d1f9011e55bc8f30
+Section: Tweaks
+Description: Adds a customizable quick-access hot bar for toggles, favorite apps, and recent apps.
+
+Package: com.cpdigitaldarkroom.barmoji
+Name: Barmoji
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.barmoji_1.0_iphoneos-arm.deb
+Size: 6132
+MD5sum: 8c9630f863332c9d51b57ebf7f12aeb6
+SHA1: 8686969d23ccdc1950dac33eefd6384466508e9d
+SHA256: a7e5262a8e05f87722d12c7aa5cafe70790f88de36d71d2802f693a3779a6b0b
+Section: Tweaks
+Description: Places a scrollable emoji bar directly above the iOS keyboard.
+
+Package: com.cpdigitaldarkroom.barmoji
+Name: Barmoji
+Version: 2019.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cpdigitaldarkroom.barmoji_2019.1_iphoneos-arm.deb
+Size: 53926
+MD5sum: f2b849aef2bba95f5a169cf13e5fdacd
+SHA1: 4b155d76ae65ac05bcbca7a6b4bdb623732e9fac
+SHA256: 405ae808db019850ab579c234d8794b1adfb2e4b383387dcaff34d2f2b9be278
+Section: Tweaks
+Description: Places a scrollable emoji bar directly above the iOS keyboard.
+
+Package: com.cpdigitaldarkroom.barmoji
+Name: Barmoji
+Version: 2020.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cpdigitaldarkroom.barmoji_2020.1_iphoneos-arm.deb
+Size: 54990
+MD5sum: c6f4f969a0a847d11628f569020befbc
+SHA1: 699d218c7d5f66561ef3f92a53750539d8fd3f06
+SHA256: 91af1b221ba09547c41061ef2dda2b9036516296aa6135e001725a4a3991e94f
+Section: Tweaks
+Description: Places a scrollable emoji bar directly above the iOS keyboard.
+
+Package: com.cpdigitaldarkroom.barmoji
+Name: Barmoji
+Version: 2020.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cpdigitaldarkroom.barmoji_2020.2_iphoneos-arm.deb
+Size: 55214
+MD5sum: 3dc12f4cd8537a9868e23ffca7375275
+SHA1: 2da7f733bbad16a931bf7561f12c55282cca88e8
+SHA256: 87db49c885d51e6b6ae848d87e3aa18de8578f24dada67a9c7c25331f6b99d63
+Section: Tweaks
+Description: Places a scrollable emoji bar directly above the iOS keyboard.
+
+Package: com.cpdigitaldarkroom.barmoji
+Name: Barmoji
+Version: 2020.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cpdigitaldarkroom.barmoji_2020.3_iphoneos-arm.deb
+Size: 55078
+MD5sum: 7a5b96dd22c423ed96f41716cda0e545
+SHA1: 12390d0aca3f68283e433094dff618337c2c9cfd
+SHA256: b98a284beebdb9fc663cea6903f7125d8daa0bc96418c09ece114aca7eff91af
+Section: Tweaks
+Description: Places a scrollable emoji bar directly above the iOS keyboard.
+
+Package: com.cpdigitaldarkroom.blurslide2
+Name: BlurSlide²
+Version: 0.0.1-222
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cpdigitaldarkroom.blurslide2_0.0.1-222_iphoneos-arm.deb
+Size: 190184
+MD5sum: 31b3563aa96db54e77c5f2c0dd9a0eaa
+SHA1: 2435f366da4be7faaa326a17700cd382e2370951
+SHA256: b023ecda953760e0643e2504da290066aea86b864167516b60dc985495e86ef4
+Section: Tweaks
+Description: Brings back a classic blurred "Slide to Unlock" slider track on the lock screen.
+
+Package: com.cpdigitaldarkroom.bragideux
+Name: Bragi Deux
+Version: 0.0.1-182+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.bragideux_0.0.1-182+debug_iphoneos-arm.deb
+Size: 231796
+MD5sum: 59cbe34b0592e04085973f7ab042bd23
+SHA1: 41e3e16ecda465addf34294daba038368acdecfe
+SHA256: d99ca58f5ac63c77689cc602d480a9883b418750e01686453db858d2fd8e285a
+Section: Tweaks
+Description: Redesigns the Control Center media player with a compact, Apple Watch-inspired layout.
+
+Package: com.cpdigitaldarkroom.bundlr
+Name: Bundlr
+Version: 0.0.2
+Architecture: iphoneos-arm
+Depends: 
+Filename: debs/com.cpdigitaldarkroom.bundlr_0.0.2_iphoneos-arm.deb
+Size: 222840
+MD5sum: 81cce7c02ea98dc25071bda6d6851bc9
+SHA1: 2ed130ed506c0a1b50ddc5e412ec483a982a9e82
+SHA256: 588d94fdc28e00fd4dbca707df899fc6b2d8fce83a0d817704f390e4d2b78bea
+Section: Utilities
+Description: Bundles installed Cydia tweaks and sources for easy backup and reinstallation.
+
+Package: com.cpdigitaldarkroom.ccshadowremover
+Name: CCShadowRemover
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.ccshadowremover_0.0.1-2_iphoneos-arm.deb
+Size: 3594
+MD5sum: 0e60b1a65d5e5bdb28087059a2247af2
+SHA1: 9b3332fdbfdf83e95fd449962917fc3609d82d9d
+SHA256: 6e04e9cc349faba784fdf760c3f23634287e867d2c3d8baec35a1064ed407116
+Section: Tweaks
+Description: Removes the dark background shadow overlay behind Control Center.
+
+Package: com.cpdigitaldarkroom.chromatolockbeta
+Name: Chromatolock
+Version: 0.0.1-25
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 7.0), firmware (<= 8.0)
+Filename: debs/com.cpdigitaldarkroom.chromatolockbeta_0.0.1-25_iphoneos-arm.deb
+Size: 109286
+MD5sum: 70e5e1fad93903967bfac99c07166780
+SHA1: a4136c5a2cf909f94efaca8a218aa7e69b3d193e
+SHA256: 8d28cddf6c0a11dc73f4c6b1bd50160a3e8a95c552d8fff225a8fc9e732863f1
+Section: Tweaks
+Description: Colorizes lock screen text, clock, and UI elements to match your wallpaper or custom colors.
+
+Package: com.cpdigitaldarkroom.ckcounter
+Name: CKCounter
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/com.cpdigitaldarkroom.ckcounter_1.1_iphoneos-arm.deb
+Size: 43520
+MD5sum: 25b0c4098671c44a1b2c3d1b400791dc
+SHA1: 47cb546bf4af6dcee0be49f054e3caf31d20f9fe
+SHA256: 65227c803c3fec8699cce497e2cc511d74e4d66899a6c64ae4f7fa665f94c25a
+Section: Tweaks
+Description: Adds a live character counter to the Messages text input box.
+
+Package: com.cpdigitaldarkroom.cpddconnect
+Name: CPDD Connect
+Version: 4.1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.connect.deb
+Size: 8579364
+MD5sum: b26852e15094d2f5c49682f034b17efe
+SHA1: 7f2a51f46ea180174270192e28ea91a4eb65c3b0
+SHA256: da6ec0df4a1f2b584a0093e6824166f785d3e94102f7ac09376d5fe65407a259
+Section: App
+Description: Links your device to your CP Digital Darkroom supporter account for beta and paid tweak access.
+
+Package: com.cpdigitaldarkroom.cream2
+Name: Cream 2
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0), org.thebigboss.libcolorpicker
+Filename: debs/com.cpdigitaldarkroom.cream2_1.0.1_iphoneos-arm.deb
+Size: 101190
+MD5sum: 7882b5da9b5ce481a3091383c51946d1
+SHA1: 5c05abbde6b19671606d8e50d65c91715250e731
+SHA256: 8982032f6e14e035d8ec891eb7ba933cfbcc1f98562883a1081d328d0f5f27e4
+Section: Tweaks
+Description: Adds custom colors to enabled Control Center toggles on iOS 10.
+
+Package: com.cpdigitaldarkroom.cream
+Name: Cream
+Version: 1.2.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, firmware (>= 8.0)
+Filename: debs/com.cpdigitaldarkroom.cream_1.2.5_iphoneos-arm.deb
+Size: 170626
+MD5sum: 70c687900f9a634b5c22db85e98405e1
+SHA1: 961c97fc571c3627891135433c2beb9315ddc5f9
+SHA256: 9e610f9ef88a17301adf4c15de99eb8a188283e6ecdd70937aee8d509cc88b35
+Section: Tweaks
+Description: Adds custom colors to enabled Control Center toggles on iOS 8 and iOS 9.
+
+Package: com.cpdigitaldarkroom.edge
+Name: Edge
+Version: 1.0.9
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.edge_1.0.9_iphoneos-arm.deb
+Size: 238390
+MD5sum: 84548b164f11432bd2429a9b978a9a2c
+SHA1: 7e7b5d51c054ee263e9678fe88530d8cabc7fccc
+SHA256: e7e0b87d28c61c94dd1813ced73001c5dc1254140ef1e4874c8b00c168dd6677
+Section: Tweaks
+Description: Brings Samsung Galaxy Edge-style side panels and edge lighting to iOS.
+
+Package: com.cpdigitaldarkroom.effacepad
+Name: EffacePad
+Version: 0.0.1-30
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.effacepad_0.0.1-30_iphoneos-arm.deb
+Size: 169504
+MD5sum: f4dbaf9ab236258715535b0ed3f56969
+SHA1: e51b16833cd48431f0baa35ae3f8c07f6d0df756
+SHA256: 68620c9ce39663593bc9c9deb2cbe95d0485027bff719e2f652e937d8f8a4b6a
+Section: Tweaks
+Description: Replaces the lock screen passcode Emergency and Cancel buttons with a Clear button.
+
+Package: com.cpdigitaldarkroom.evanesco
+Name: Evanesco
+Version: 1.1.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.evanesco_1.1.3_iphoneos-arm.deb
+Size: 180060
+MD5sum: 506ecede195858903212dba15fa4f65b
+SHA1: f3c635d6788019c4850aeae0f5cea9d8570aea0c
+SHA256: 835784a3d174b77e7e447ccd06a07c3b3e469cc50c4d29686ba58a28096820c0
+Section: Tweaks
+Description: Fades out home screen icons and UI elements after inactivity to showcase your wallpaper.
+
+Package: com.cpdigitaldarkroom.eventonappclose
+Name: EventOnAppClose
+Version: 1.1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, libactivator, applist
+Filename: debs/com.cpdigitaldarkroom.eventonappclose_1.1.1_iphoneos-arm.deb
+Size: 48048
+MD5sum: 5d759c8fbae9f3a48b253e561bcfb7a6
+SHA1: 51380fa352d668c3075ea84f71c246c7755de70f
+SHA256: 787be2716f32d3b5e2ebdf1072ad6096e0bed0835afb3a23cf33763d0b0bbf9e
+Section: Addons (Activator)
+Description: Triggers custom Activator events whenever you close or exit an app.
+
+Package: com.cpdigitaldarkroom.ezccx
+Name: EZCCX
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.ezccx_1.0.1_iphoneos-arm.deb
+Size: 9800
+MD5sum: b359ed27ac01c03be331a204ef556bef
+SHA1: 797fcc6a94ddec616751a2e2243319ffff7fb474
+SHA256: f0b5f9a7621b4a1b2ce1284b335e2d51a2378064ab3229803c9ec645ecfea9d2
+Section: Tweaks
+Description: Brings iPhone X-style Control Center gestures and layout tweaks to older iPhones.
+
+Package: com.cpdigitaldarkroom.fastunlockx
+Name: FastUnlockX
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.fastunlockx_1.0_iphoneos-arm.deb
+Size: 3958
+MD5sum: dcdbce19ffdb48c8a3fda2b4bb2384cd
+SHA1: f54e452815d26ebb70b34d18c5d47b9b127a5ea2
+SHA256: 2209f9f06fd8ecc72f977f1648c66511931f79446f67e2a0de93e3e4cfb29d2b
+Section: Tweaks
+Description: Automatically unlocks directly to the home screen after Face ID authentication when no notifications are pending.
+
+Package: com.cpdigitaldarkroom.gazelle
+Name: Gazelle
+Version: 0.1.2.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs/com.cpdigitaldarkroom.gazelle_0.1.2.1_iphoneos-arm.deb
+Size: 632218
+MD5sum: 9a2be489893bbf16624160185cc02e13
+SHA1: 8d6cb761afe7e379022d372f55b2e7424da0cb26
+SHA256: 1a3c8d7c651be58c8652d6c42ba97f2783188b4ef944338154fbd3adeaa70c50
+Section: Tweaks
+Description: Swipe up on home screen icons to launch compact quick-view pop-up cards.
+
+Package: com.cpdigitaldarkroom.ghosty
+Name: Ghosty
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.ghosty_1.0_iphoneos-arm.deb
+Size: 6352
+MD5sum: 8eb00b1e32ba61713edfe0077109bfbe
+SHA1: dd9ac6c1a34f45e119420e533d830cede3c401c7
+SHA256: dbb151b108d848d1eb35040d64b9e8bef8286ad5625c50ced7f7455724651c48
+Section: Tweaks
+Description: Adjusts the opacity and transparency of home screen icons, labels, and dock elements.
+
+Package: com.cpdigitaldarkroom.goldenhours
+Name: Golden Hours
+Version: 0.1-20
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cpdigitaldarkroom.goldenhours_0.1-20_iphoneos-arm.deb
+Size: 59442
+MD5sum: e52229da6407cc01e12f49f4053deb3a
+SHA1: 4177af22e09b33c7a9b98bc066e4b533304c6b4f
+SHA256: 8baba0cb3ef48ad64c3ba75593021aa70496442ed5cc4457dd96e00db0a04ae2
+Section: Tweaks
+Description: Displays local sunrise, sunset, golden hour, and blue hour times for photographers.
+
+Package: com.cpdigitaldarkroom.gridiculous
+Name: gridiculous
+Version: 0.2~beta3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.chpwn.iconsupport
+Filename: debs/com.cpdigitaldarkroom.gridiculous_0.2beta3_iphoneos-arm.deb
+Size: 12446
+MD5sum: 3f483914f73dcf803268df04ab53f8b3
+SHA1: 7f7b86687e8a9e974559c7ca19d9952b322dabeb
+SHA256: 87912c98e8e55846aa521da7be3e1dbf5923a66501b25da24c6694a5719221bd
+Section: Tweaks
+Description: Place home screen app icons freely anywhere on the grid without third-party blank icons.
+
+Package: com.cpdigitaldarkroom.hidemex10
+Name: HideMeX (iOS 10)
+Version: 1.1.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0),firmware (<= 11.0), org.thebigboss.libcolorpicker, preferenceloader, applist
+Filename: debs/com.cpdigitaldarkroom.hidemex10_1.1.3_iphoneos-arm.deb
+Size: 822468
+MD5sum: a30e4672f5ee2f2a70841d25daca8676
+SHA1: 3d0abeae0fdf9d10df53a589069ff52980569610
+SHA256: bf073d3c4eb5f6675a856f3e02fa1acaa13ffca34f9218b9b4938cb36cedd6b2
+Section: Tweaks
+Description: All-in-one SpringBoard and system UI customization suite for iOS 10.
+
+Package: com.cpdigitaldarkroom.hidemex
+Name: HideMeX
+Version: 1.4.10
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 9.0), org.thebigboss.libcolorpicker, preferenceloader, applist
+Filename: debs/com.cpdigitaldarkroom.hidemex_1.4.10_iphoneos-arm.deb
+Size: 531456
+MD5sum: 4d5fb7324ce9957fdd534b9e852d001c
+SHA1: cb2a24264ea115e26a429a04759a697d3fd2a301
+SHA256: 0a6d2ff308a3c8ce3eb7716e3165fcb8a198c55bfb560c1cc1c5a079506676a5
+Section: Tweaks
+Description: All-in-one SpringBoard and system UI customization suite for iOS 9.
+
+Package: com.cpdigitaldarkroom.hsmapfix
+Name: HSMapFix
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.hsmapfix_0.0.1-1+debug_iphoneos-arm.deb
+Size: 5102
+MD5sum: 6b138fed193301daf2e42eef49640b47
+SHA1: e4082e4b2a5a8e142017de78de6eb30aa94c7406
+SHA256: c163ee6b0161a310b5521d9897e36509a26f2d4302199d9edb3ce83a0657639e
+Section: Tweaks
+Description: Fixes home screen icon map corruption and layout resets on jailbroken iOS.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.10
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.10_iphoneos-arm.deb
+Size: 66808
+MD5sum: bd2e70eb962a917329fc4d1c20b08a5f
+SHA1: 82de9b0314365b6794b57664614330b1b0b3e4cf
+SHA256: d7d2034275671f23adf589ce4548cbf333948ea6656e6058abe8df4d14f2336c
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.1_iphoneos-arm.deb
+Size: 46500
+MD5sum: 0caefc0570a16fca744734853f6298b6
+SHA1: 9d36fd4a51249932ae97567dfa25eaa6afd4711c
+SHA256: 1aa5ca427329d5fd2d1c61b7792445225b9b41bd3d28bd00c7af012e7f12cba2
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.1~demo
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.1~demo_iphoneos-arm.deb
+Size: 46506
+MD5sum: 088f3a37ab5de610e6ccb43c86ea704d
+SHA1: 83495855d81d9ff06afc30d4e9b819c3c041c581
+SHA256: 58165efd8dfc9ab7fb91005eee4b96bd46137f5cfda171959b06fa1068095552
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.2_iphoneos-arm.deb
+Size: 46510
+MD5sum: 6ad16c5a89569ba17d02825003f9262c
+SHA1: dfac98a5a4e53ce541f98bcdc178cf9cfeb552ea
+SHA256: e778e2ca677916a0c87d21db48795037ff7055d80139c60ec647433e8a37782d
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.3_iphoneos-arm.deb
+Size: 47874
+MD5sum: c2f29ba7ca5050426df42bd342490852
+SHA1: ad17dc8ff1a0ade073cd4febb645401583440d3f
+SHA256: ba82ef05a573afaac03b75c387b5925ab7b1745df06d42c6aa1162edaddc3049
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.4
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.4_iphoneos-arm.deb
+Size: 48630
+MD5sum: 4b3adedf21218b01dedda67e8d9cbbb2
+SHA1: ca3e0c2eab0a650a1acd6a099f30ca11f41ebe6c
+SHA256: 744229a5f1c6c8fbaf2ef727781f851d777ea3df27b4b9ea9c4d01b5e7ef60e7
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.5_iphoneos-arm.deb
+Size: 50118
+MD5sum: 77ffb7f1ac049e1cb452ccf64e1dde98
+SHA1: 1eada9e939bbba1427a0eed05f5f37c41e90a3a4
+SHA256: c36376bb0a06d05d930a337beaef605b5856a2a149ba477fe08cf66cef96cea3
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2020.6
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2020.6_iphoneos-arm.deb
+Size: 51908
+MD5sum: 91476c3ea88b057a77e8ae5f579f8350
+SHA1: e859035735c04654916c7781a11f9e5e73a33e43
+SHA256: 98e4dddbdb86fe4483c3e380009caa24146da93031dba0b56c5acf47d3a8a3c4
+Section: Tweaks
+Description: Updated iOS 13 and iOS 14 tweak that fades out home screen UI elements after inactivity.
+
+Package: com.cpdigitaldarkroom.kairos2
+Name: Kairos 2
+Version: 1.0.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.kairos2_1.0.3_iphoneos-arm.deb
+Size: 107342
+MD5sum: 4ea635a1b9fa3a1acfd70442f4406ed2
+SHA1: 583684635ce7a05c4d1ff50d8a51462394b98673
+SHA256: ec0ed663f6c45d786049777716ee387d13988b60440620bdfffcfc90468aa796
+Section: Tweaks
+Description: Schedule iMessage and SMS text messages to send automatically at specific or repeating times.
+
+Package: com.cpdigitaldarkroom.kairos
+Name: Kairos
+Version: 1.0.6-9+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.kairos_1.0.6-9+debug_iphoneos-arm.deb
+Size: 328652
+MD5sum: 65e49ab91124445f6c61d6f017208199
+SHA1: e6d6b8fc96b1a289435d6d9e14380d2b0dd06233
+SHA256: 2e8c11f8ccf1ab111252b6753063aa929f27d9b5cc5342e30abd4e5665fe4cb2
+Section: Tweaks
+Description: Schedule iMessage and SMS text messages to send automatically at a later time.
+
+Package: com.cpdigitaldarkroom.keyvibe
+Name: KeyVibe
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.cpdigitaldarkroom.keyvibe_0.0.1-15+debug_iphoneos-arm.deb
+Size: 6358
+MD5sum: 77fee2c28f85f8673965df944368f3e9
+SHA1: d638fc37ee0a8ef4d0c8321036171508fa69b942
+SHA256: 68e4f2589d07db0e53bec63e8aaa3832c38faab506a46eb5c92674c909593e21
+Section: Tweaks
+Description: Adds customizable haptic vibration feedback when typing on the iOS keyboard.
+
+Package: com.cpdigitaldarkroom.liverings
+Name: LiveRings
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.liverings_1.2_iphoneos-arm.deb
+Size: 12216
+MD5sum: 00966d6a3a8f84d0e853fa2e57075ed5
+SHA1: fa377b040a196673bec547f0e14dd412a363aec6
+SHA256: 67d4d94e29760c105831e755a87c4399296c374429748d0250db053fc646fc3c
+Section: Tweaks
+Description: Replaces the static Activity app icon with live-updating Apple Watch fitness rings.
+
+Package: com.cpdigitaldarkroom.logger
+Name: Logger
+Version: 0.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Filename: debs/com.cpdigitaldarkroom.logger_0.0.1_iphoneos-arm.deb
+Size: 13142
+MD5sum: d77def06e44b3f6a0cb8572c649086c3
+SHA1: 9fa4de0200caf4c4ad67f44324a62d65eb596900
+SHA256: b976eb1c99ad3d9ce570d300301528e77bf6f75ba58d1bb463f7c6a0a1109544
+Section: Tweaks
+Description: Logs opened applications with timestamps and captures silent screenshots while active.
+
+Package: com.cpdigitaldarkroom.medusa
+Name: Medusa
+Version: 0.0.1-7
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.cpdigitaldarkroom.medusa_0.0.1-7_iphoneos-arm.deb
+Size: 4618
+MD5sum: 916775e488eec2e61e2671e7c56421cb
+SHA1: 8266ee2cf2228e78f880c304a440cc59bc9d7f76
+SHA256: f36f0e6c05e066e68f996530a58b43ed40828ff087e0c6964d154565e53a61ec
+Section: Tweaks
+Description: Enables iPad-style Slide Over and Split View multitasking on iOS.
+
+Package: com.cpdigitaldarkroom.musicbar
+Name: MusicBar
+Version: 0.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.musicbar_0.0.1_iphoneos-arm.deb
+Size: 28082
+MD5sum: d28fa284e352ffff1ae95189b982d618
+SHA1: 6798b483ed47e67a6987c239b082fa317708251f
+SHA256: bdac51a48c208243fcc0c165b45c2b60b26605992146df4626473a81c30d1001
+Section: Tweaks
+Description: Displays a bottom-edge music control bar when you press physical volume buttons.
+
+Package: com.cpdigitaldarkroom.noflashlightwake
+Name: NoFlashlightWake
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.noflashlightwake_1.0_iphoneos-arm.deb
+Size: 4730
+MD5sum: 3cc8f4c17fc676e81f5abe2aa01419a5
+SHA1: 8d89719d9104d24dee0377f5adc2bf2c7203cf4f
+SHA256: 94e4a74ec71e48cd2599634fd687fc0ad83d52ed44b231371893a99a0886553c
+Section: Tweaks
+Description: Prevents the screen from waking while the flashlight is turned on.
+
+Package: com.cpdigitaldarkroom.numerals
+Name: Numerals
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.numerals_1.0_iphoneos-arm.deb
+Size: 5884
+MD5sum: 909d34cec7aca3d4b72b5e15bc5c08fb
+SHA1: e49471723128154ce7d0b1ce395303d6bac48c87
+SHA256: 11a41bdfefc5ff50154d54cc8dc47179845473442941d1551b68482b22df1b05
+Section: Tweaks
+Description: Customizes the letters beneath passcode buttons on the Lock Screen with numerals or text.
+
+Package: com.cpdigitaldarkroom.placeholder
+Name: Placeholder
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.placeholder_0.0.1-15+debug_iphoneos-arm.deb
+Size: 15700
+MD5sum: ee71ac9211902b0f729cf24feb686b2d
+SHA1: 70e5d6a68f0a1354845da0fff63753376efff13d
+SHA256: 99d533da533471c573657cfa3d250d6e15c1feef0dc8b827e9c0c054e0192d83
+Section: Tweaks
+Description: Customizes the passcode text label on the iOS Lock Screen.
+
+Package: com.cpdigitaldarkroom.qsr
+Name: QuickShuffleRepeat
+Version: 0.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.cpdigitaldarkroom.qsr_0.0.1_iphoneos-arm.deb
+Size: 6388
+MD5sum: bf30e14586d4be2750b84dcb2e6a5f4c
+SHA1: 974837ef261b1f8fc1bed6ce4a947aab97fc2944
+SHA256: 8cb43c8ce4bf6214850f6bdb51670fde3718bb7c1f0b0bec6a70f1e5e8144c58
+Section: Tweaks
+Description: Adds shuffle and repeat playback controls directly to Control Center.
+
+Package: com.cpdigitaldarkroom.respringfix
+Name: RespringFix
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.respringfix_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4746
+MD5sum: 249941cd327da2f4d9e7c1048c220e66
+SHA1: 423eb969a1bc1dead5045028d33e4ec37e1dcae5
+SHA256: 633a5eb2a3e87e064986913a5b7bdf2ba395a7ac53d2e92d283913410cc2b59d
+Section: Tweaks
+Description: Prevents respring loops and SpringBoard hangs when installing or modifying tweaks.
+
+Package: com.cpdigitaldarkroom.rounder
+Name: Rounder
+Version: 0.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.rounder_0.5_iphoneos-arm.deb
+Size: 4716
+MD5sum: ce452e52d2892b259328549c0fa28e57
+SHA1: 747468a832b06570c67502ebfb819701eca3e391
+SHA256: 3acd0509b2a37b945daf7811eb17dc572ebbb7b047289be1438a0df6bb405f07
+Section: Tweaks
+Description: Rounds the corners of Control Center into a floating card style on iOS 8.
+
+Package: com.cpdigitaldarkroom.safariwallsetter
+Name: SafariWallSetter
+Version: 1.1-14+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.safariwallsetter_1.1-14+debug_iphoneos-arm.deb
+Size: 259972
+MD5sum: 6a72b93b3daa3a9c9a873fbb1fc217e8
+SHA1: 88f40f5b1ac5c45cd00b6b99478db837a47fd224
+SHA256: e5242c0ffcb18237ea2fe36ed2b9cd0ee4d55019b61056254f4ab0dc21fdf503
+Section: Tweaks
+Description: Set images browsed in Safari directly as your wallpaper.
+
+Package: com.cpdigitaldarkroom.shortcuts
+Name: Shortcuts
+Version: 1.0.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.shortcuts_1.0.2_iphoneos-arm.deb
+Size: 258836
+MD5sum: 6aaa01419c5d066fb90b88c4b231e56e
+SHA1: c95e3d321610c8fb29f38cd785fc2acfc16c9e02
+SHA256: ae66a178365895de189d7b23539128f50fc537dc0f469e5fae6f18b4fd53c292
+Section: Tweaks
+Description: Adds custom Force Touch / 3D Touch quick-action menus to iOS 9 apps.
+
+Package: com.cpdigitaldarkroom.sliver
+Name: Sliver
+Version: 0.0.1-5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.sliver_0.0.1-5_iphoneos-arm.deb
+Size: 3862
+MD5sum: 28e3c2702053985e008199616857eee6
+SHA1: 9209d241e600d257096800ae7ee931dec4da601b
+SHA256: 9727c6dddaa92ab4c491ae042e537260304e49c56d89df53fa1f1689ea1e4b3d
+Section: Tweaks
+Description: Shrinks the Home Screen dock blur down into a slim edge line.
+
+Package: com.cpdigitaldarkroom.swiper
+Name: Swiper
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.swiper_1.0_iphoneos-arm.deb
+Size: 2078
+MD5sum: fa1f07ca1234660876aa054cd87fb9e4
+SHA1: 4713254dd106e8d9f979f6fe3b419f5558adca11
+SHA256: de340c3c61b12691afa11d03c7d048e1e17b1d59f79af3896664a99e005e0a2f
+Section: Tweaks
+Description: Adds quick swipe-based navigation and gesture shortcuts on iOS.
+
+Package: com.cpdigitaldarkroom.taptapflip
+Name: TapTapFlip
+Version: 1.3.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.taptapflip_1.3.3_iphoneos-arm.deb
+Size: 9838
+MD5sum: d35a09d246a1545ff4e77a49f1cfda5b
+SHA1: b0d80cb598af06ff96532d1e5ce4730395835f14
+SHA256: debeb469e64409b60fe6338b0f84d69375d14a2b860dcaee721339b3a2bdea1c
+Section: Tweaks
+Description: Double-tap the Camera viewfinder to switch between front and rear cameras.
+
+Package: com.cpdigitaldarkroom.teardrop
+Name: Teardrop
+Version: 0.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.teardrop_0.0.1_iphoneos-arm.deb
+Size: 28456
+MD5sum: a798dec9f5a3544f7a189153fe04eb2a
+SHA1: a72cbedbe89b11bb362c23b11edbcb5e1c6cc191
+SHA256: fe14f8943af3f29a2a844b019c9ae74afe759fe15a22888f6e76711eb61727c4
+Section: Tweaks
+Description: Send repeated text messages to a chosen recipient from an Activator prompt.
+
+Package: com.cpdigitaldarkroom.vibr8or
+Name: Vibr8or
+Version: 0.0.1-12
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.cpdigitaldarkroom.vibr8or_0.0.1-12_iphoneos-arm.deb
+Size: 5488
+MD5sum: cf28aaef24e4c5d7e1fb0bcb7a6d5a1c
+SHA1: b681160d3eb24451686fd59249777d4dc1d6cb72
+SHA256: fc4baa3de54671a08412f21b050eef318a91af12afa457c723463a41aaebed37
+Section: Tweaks
+Description: Makes your device vibrate continuously or repeatedly on demand.
+
+Package: com.cpdigitaldarkroom.watchconnection
+Name: WatchConnection
+Version: 0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, libstatusbar
+Filename: debs/com.cpdigitaldarkroom.watchconnection_0.1_iphoneos-arm.deb
+Size: 14832
+MD5sum: fa9b56c595bfd3897e0e19847266a16d
+SHA1: 33f8ad917717e696a23306bd2de7a616f92cfe27
+SHA256: c05c1676592941709fb835869b35e26aaa03d95e513eeb4589fc4c46fc7a7a70
+Section: Tweaks
+Description: Enhances connectivity and pairing behavior between iOS and Apple Watch.
